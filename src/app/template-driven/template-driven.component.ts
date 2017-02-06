@@ -5,7 +5,7 @@ import { NgForm } from '@angular/forms';
   selector: 'template-driven',
   templateUrl: 'template-driven.component.html',
   styles: [`
-      .ng-invalid:not(form){
+      .ng-invalid:not(form):not(div){
         border: 1px solid red;
       }
   `]
